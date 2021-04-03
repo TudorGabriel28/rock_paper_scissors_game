@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Rock Paper Scissors</title>
+		<link type="text/css" rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Rock Paper Scissors</h1>
+		</header>
+		<div style="display: flex;align-content: center;justify-items: center">
+			<div id="userChoice">
+				<div class="choice" id="ur">
+					<img src="rock.png" width="60" height="60" alt="" />
+				</div>
+				<div class="choice" id="up">
+					<img src="paper.png" width="60" height="60" alt="" />
+				</div>
+
+				<div class="choice" id="us">
+					<img src="scissors.png" width="60" height="60" alt="" />
+				</div>
+			</div>
+			<div class="score-board">
+				<div id="user-label" class="badge">user</div>
+				<div id="computer-label" class="badge">comp</div>
+				<span id="user-score">0</span> : <span id="computer-score">0</span>
+			</div>
+			<div id="computerChoice">
+				<div class="choice" id="cr">
+					<img src="rock.png" width="60" height="60" alt="" />
+				</div>
+				<div class="choice" id="cp">
+					<img src="paper.png" width="60" height="60" alt="" />
+				</div>
+
+				<div class="choice" id="cs">
+					<img src="scissors.png" width="60" height="60" alt="" />
+				</div>
+			</div>
+		</div>
+
+		<div class="result">
+			<p></p>
+		</div>
+
+		<div class="choices">
+			<div class="choiceUser" id="Rock">
+				<img src="rock.png" width="60" height="60" alt="" />
+			</div>
+			<div class="choiceUser" id="Paper">
+				<img src="paper.png" width="60" height="60" alt="" />
+			</div>
+
+			<div class="choiceUser" id="Scissors">
+				<img src="scissors.png" width="60" height="60" alt="" />
+			</div>
+		</div>
+
+		<p id="action-message">Make your move.</p>
+		<script src="app.js" type="text/javascript"></script>
+	</body>
+</html>
